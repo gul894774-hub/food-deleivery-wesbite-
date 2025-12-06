@@ -1,0 +1,664 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(243, 241, 238);
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(243, 241, 238);
+}
+.right-bar{
+    margin-right: 100px;
+}
+.right-bar button{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: wheat;
+    border: none;
+    color: black;
+    cursor: pointer;
+
+}
+.right-bar button:hover{
+    background-color: rgb(231, 198, 137);
+    color: white;
+    transition: 0.3s;
+}
+.section-1{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 50px;
+    text-align: center;
+    background-color: rgb(248, 193, 11);
+
+}
+.middle-bar{
+    font-weight: 700;
+}
+.section-1 h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.section-1 p{
+    
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.section-1 button{
+    padding: 13px 50px;
+    font-size: 18px;
+    background-color:rgb(250, 246, 5);
+    border: none;
+    color: black;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.section-1 button:hover{
+    background-color: rgb(216, 168, 10);
+    color: white;
+    transition: 0.3s;
+}
+.input-group{
+    margin-right: 250px;
+    
+    padding: 40px;
+    margin-top: 20px;
+
+
+}
+.input-group input{
+    
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;}
+ .barbq img{
+
+    position: relative;
+    top: 50px;
+    right: 154px;
+    border-radius: 80px;
+    height: 500px;
+    width: 700px;
+    background-size: contain;
+}
+.barbq img:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+
+}
+.inputi{
+    margin-top: 20px;
+}
+
+.inputi button{
+    padding: 13px 50px;
+    font-size: 16px;
+    background-color:rgb(245, 37, 37);
+    border: none;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.inputi button:hover{
+    background-color: rgb(216, 10, 10);
+    color: white;
+    transition: 0.3s;
+}
+.main{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: rgb(243, 241, 238);
+
+}
+.main img{
+    height: 250px;
+    width: 325px;
+    border-radius: 40px;
+    background-size: contain;
+}
+.main img:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+
+}
+.main h3{
+    font-size: 30px;
+    margin: 20px;
+}
+.main span{
+    font-weight: 700;
+    color: rgb(245, 37, 37);
+    font-size: 18px;
+    margin: 20px;
+    background-color: rgb(229, 175, 175);
+}
+
+.subsection-3{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.subsection-3 img{
+
+    height: 90px;
+    width: 100px;
+    border-radius: 40px;
+    background-size: contain;
+
+}
+.subsection-3 img:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+
+}
+.section3 h1{
+    color: firebrick;
+    font-weight: 900;
+    font-size: 40px;
+    margin: 10px;
+    text-align: center;
+}
+.section3 p{
+    font-size: 20px;
+    margin: 10px;
+    text-align: center;
+}
+.section-4{
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(248, 193, 11);
+
+}
+.section-4 h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.popular-items{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+.popular-items div{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    width: 250px;
+}
+.popular-items div:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+
+}
+.popular-items img{
+    height: 150px;
+    width: 200px;
+    border-radius: 20px;
+    background-size: contain;
+
+}
+.popular-items h2{
+    color: rgb(99, 12, 12);
+    font-size: 24px;
+    margin: 10px 0;
+}
+.popular-items h4{
+
+    font-size: 18px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: gray;
+}
+.popular-items p{
+
+    font-size: 20px;
+    margin: 10px 0;
+    color: firebrick;
+    
+    font-weight: 700;
+}
+.popular-items button{
+    padding: 10px 30px;
+    font-size: 16px;
+    background-color:rgb(250, 246, 5);
+    border: none;
+    color: black;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.popular-items button:hover{
+    background-color: rgb(216, 168, 10);
+    color: white;
+    transition: 0.3s;
+}
+.img-23{
+    height: 30px;
+    width: 30px;
+}
+.section-5{
+    border: 2px solid rgb(176, 223, 8);
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(243, 241, 238);
+}
+.featured-Restaurant h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.featured-Restaurant{
+    border: 2px solid rgb(10, 153, 219);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+.featured-Restaurant div{
+    background-color: rgb(18, 28, 29);
+    padding: 20px;
+    border-radius: 20px;
+    width: 250px;
+    margin-top: 40px;
+}
+.featured-Restaurant div:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+
+}
+.featured-Restaurant img{
+    height: 150px;
+    width: 200px;
+    border-radius: 20px;
+    background-size: contain;
+
+}
+.featured-Restaurant h2{
+    color: rgb(53, 194, 230);
+    font-size: 24px;
+    margin: 10px 0;
+}
+.featured-Restaurant h4{
+
+    font-size: 18px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: gray;
+}
+.featured-Restaurant p{
+
+    font-size: 20px;
+    margin: 10px 0;
+    color: firebrick;
+    
+    font-weight: 700;
+}
+.featured-Restaurant button{
+    padding: 10px 30px;
+    font-size: 16px;
+    background-color:rgb(153, 150, 3);
+    border: none;
+    color: black;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.featured-Restaurant button:hover{
+    background-color: rgb(216, 168, 10);
+    color: white;
+    transition: 0.3s;
+}
+.section-5 .footer-btn button{     
+    padding: 13px 50px; 
+    font-size: 18px;
+    background-color:rgb(250, 246, 5);
+    border: none;
+    color: black;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-top: 90px;    
+}
+.section-5 .footer-btn button:hover{
+    background-color: rgb(216, 168, 10);
+    color: white;
+    transition: 0.3s;
+}
+.section-6{
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(224, 209, 159);
+    border-radius: 20px;
+}
+.section-6 h1{
+    font-weight: 900;
+ font-size: 40px;
+    margin-bottom: 20px;
+}
+.section-6 h2{
+    color: brown;
+    text-decoration: underline;
+     font-size: 24px;
+    margin: 10px 0;
+}
+.food-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.food-bar img{
+    
+     height: 150px;
+    width: 200px;
+    border-radius: 60px;
+    background-size: contain;
+margin-left: 30px;
+}
+.food-bar div :hover{
+     transform: scale(1.05);
+    transition: 0.3s;
+
+}
+
+.btn-3{
+
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+
+}
+.btn-3 button{
+    padding: 5px 20px;
+    font-size: 18px;
+    background-color:rgb(250, 246, 5);
+    border: none;
+    color: black;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.btn-3 button:hover{
+    background-color: rgb(216, 168, 10);
+    color: white;
+    transition: 0.3s;
+}
+.btn-3 p{
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.btn-3 p{
+    color: rgb(133, 133, 20);
+    position: relative;
+    top: 4px;
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+.section-7{
+    background-color:#3b2c02;
+height: 85vh;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 100px;
+    border-radius: 40px;
+
+
+}
+.section-7 div :hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+
+}
+
+.section-7 .pic img{
+
+    height: 400px;
+    width: 600px;
+    border-radius: 20px;
+    background-size: contain;
+    position: absolute;
+    top: 3900px;
+    right: 850px;
+
+}
+.section-7 .pic img:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+
+}
+.section-8{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    
+    text-align: center;
+padding-top: 40px;
+    justify-content: center;
+    color: white;
+}
+.section-8 h1{
+    
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.section-8 img{
+    height: 380px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.section-8 p{
+
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.section-8 span{
+    color: rgb(248, 193, 11);
+    font-weight: 700;
+}
+.section-8 button{
+    padding: 10px 30px;
+    font-size: 16px;
+    background-color: #FF8A00;
+    border: none;
+    color: black;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.section-8 button:hover{
+    background-color: rgb(216, 168, 10);
+    color: white;
+    transition: 0.3s;
+}
+.text-section{
+    width: 400px;
+    height: 380px;  
+    margin-left: 20px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    color: black;
+}
+.text-section span{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.section-9{
+    border-radius: 20px;
+    background-image: url(./assets/images/Image\ \(22\).png);
+    padding: 120px;
+
+}
+.section-9 h1{
+    font-size: 45px;
+    font-weight: 900;
+    padding-left: 540px;
+}
+.section-9 button{
+    position: relative;
+    left: 270px;
+        padding: 10px 60px;
+    font-size: 16px;
+    background-color: #FF8A00;
+    border: none;
+    color: black;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-top: 20px;
+
+}
+.section-9 button:hover{
+     background-color: rgb(216, 168, 10);
+    color: white;
+    transition: 0.3s;
+
+}
+.section-10{
+    margin-top:20px;
+    border-radius: 20px;
+    background-color: #212121;
+  color: #fff;
+  padding: 80px 20px;
+  font-family: sans-serif;
+
+}
+.section-10 h1{
+    color: burlywood;
+    position: relative;
+    right: 560px;
+    font-size: 20px;
+    bottom: 14px;
+}
+
+.top-cities h4{
+
+    font-size: 18px;
+    margin-bottom: 15px;
+
+}
+.top-cities{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    font-size: 14px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer h4{
+    margin-bottom: 10px;
+    
+}
+.footer p{
+    padding: 7px;
+font-size: 17px;
+text-align: center;
+    margin: 5px,0;
+    color: #ccc;
+    cursor: pointer;
+}
+.subscribe{
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+}
+.subscribe input{
+    padding: 12px 50px;
+    border: none;
+    border-radius: 3px;
+    flex: 1;
+    background-color:rgb(26, 16, 16);
+
+}
+.subscribe button{
+    padding: 8px 12px;
+    background-color:#FF8A00;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+
+}
+.bottom-note{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    font-size: 12px;
+    color: #aaa;
+
+}
+.social {
+    padding-top: 20px;
+    color:orange;
+}
+.section-10 button:hover{
+      background-color: rgb(216, 168, 10);
+    color: white;
+    transition: 0.5s;
+}
+.section-10 button{
+     padding: 10px 30px;
+    font-size: 16px;
+    background-color: #f3cf05;
+    border: none;
+    color: black;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.social p{
+    text-decoration: underline;
+}
+.social p:hover{
+    color: #0eaae7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
